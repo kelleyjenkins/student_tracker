@@ -2,4 +2,5 @@
 
   <% @students.each do |student| %>
   <h4>Name: <%= student.name %></h4>
+  <%= link_to "Delete", student_path(student.id), method: :delete %>
   <% end %>
