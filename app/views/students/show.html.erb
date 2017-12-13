@@ -1,1 +1,8 @@
-<h1> Student <%= @student.name %> </h1>
+<h1> Student <%=@student.name %> </h1>
+
+<h4> Addresses </h4>
+<p> <%=@student.addresses.description %></p>
+<p> <%=@student.addresses.street %></p>
+<p> <%=@student.addresses.city %></p>
+<p> <%=@student.addresses.state %></p>
+<p> <%=@student.addresses.zip_code %></p>
