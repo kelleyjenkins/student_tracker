@@ -6,7 +6,8 @@ class AddressesController < ApplicationController
   end
 
   def create
-
+    @student = Student.find(params[:student_id])
+    @address = 
   end
 
   private
