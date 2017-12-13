@@ -2,9 +2,9 @@
 
 <h4> Addresses </h4>
 <% @student.addresses.each do |address| %>
-<p><%= address.description %></p>
-<p><%= address.street %></p>
-<p><%= address.city %></p>
-<p><%= address.state %></p>
-<p><%= address.zip_code %></p>
+<p>Description :<%= address.description %></p>
+<p>Street: <%= address.street %></p>
+<p>City: <%= address.city %></p>
+<p>State: <%= address.state %></p>
+<p>Zip: <%= address.zip_code %></p>
 <% end %>
