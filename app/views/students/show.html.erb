@@ -1,5 +1,10 @@
 <h1> Student <%=@student.name %> </h1>
 
+<h4> Courses </h4>
+<% @student.courses.each do |course| %>
+<%= course.name %>
+<% end %>
+
 <h4> Addresses </h4>
 <% @student.addresses.each do |address| %>
 <p>Description :<%= address.description %></p>
