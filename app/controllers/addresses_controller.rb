@@ -10,7 +10,7 @@ class AddressesController < ApplicationController
     @address = @student.addresses.create(address_params)
     redirect_to student_path(@student)
   end
-
+  
   private
 
   def address_params
