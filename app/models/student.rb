@@ -1,3 +1,2 @@
-class Student < ActiveRecord
-  
+class Student < ApplicationRecord
 end
